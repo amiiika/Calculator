@@ -1,0 +1,36 @@
+* {
+    font-family: monospace;
+    font-size: 3vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-screen{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 10vh);
+    grid-template-rows: repeat(5, 10vh);
+}
+
+.output{
+    background-color: aqua;
+}
+
+.double{
+    background-color: rgb(138, 138, 138);
+    border: none;
+    width:20vh;
+}
+
+.double:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.output{
+    width: 40vh;
+}
